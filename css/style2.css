@@ -6,9 +6,11 @@
 body {
   background-color: #1b6e68;
   font-family: "Comfortaa", cursive;
-  padding: 40px;
+  padding: 30px;
   /* width: 1240px;
   height: 1754px; */
+  width: 2480px;
+  height: 3508px;
 }
 
 .wrapper {
@@ -21,14 +23,15 @@ body {
 
 .sidebar {
   background: #0a272f;
-  width: 460px;
+  width: 360px;
   height: auto;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .photo {
-  width: 400px;
+  /* width: 400px; */
+  width: 300px;
   border-radius: 200px;
   /* margin-top: 10px; */
   margin-left: 31px;
@@ -54,7 +57,8 @@ body {
 .contacts {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  /* align-items: center; */
+  align-items: flex-start;
 }
 
 .contacts-title {
@@ -75,6 +79,8 @@ body {
 .icon {
   fill: #1b6e68;
   margin-right: 10px;
+  vertical-align: baseline;
+  vertical-align: text-top;
 }
 .tech-skills-title {
   font-size: 22px;
